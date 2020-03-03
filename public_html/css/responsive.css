@@ -1,0 +1,142 @@
+/*SM breakpoint*/
+@media( min-width:576px){
+
+    .hero-slider .owl-dots{
+        position: absolute;
+        left: 18%;
+        bottom:70px;
+    }
+
+}
+
+
+
+/*MD breakpoint*/
+@media(min-width:768px){
+
+
+
+    .home{
+        padding: 200px 0;
+    }
+
+    .home article{
+        padding: 30px;
+    }
+
+    .home article p{
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    .hero-slider .owl-dots{
+        position: absolute;
+        left: 18%;
+        bottom:100px;
+    }
+
+
+}
+
+
+
+/*LG breakpoint*/
+@media(min-width:992px){
+
+
+    /* HEADER*/
+    .navbar-light .navbar-nav .nav-item{
+        margin-left: 20px;
+    }
+
+    .navbar-light .navbar-nav .nav-link{
+        border-bottom: 2px solid transparent;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .nav-link:hover
+    {
+        color:#2C2D3C ;
+        background: transparent;
+        border-bottom: 2px solid #2C2D3C;
+    }
+
+    .smallHeader .navbar-light .navbar-nav .nav-link{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .smallHeader .navbar-brand {
+        max-width: 150px;
+    }
+
+    .home{
+        padding: 220px 0 189px;
+    }
+
+    .home article{
+        padding: 42px 23px 62px 38px;
+        max-width: none;
+    }
+
+    .home article p{
+        font-size: 60px;
+        line-height: 80px;
+    }
+
+
+    /* ACHIEVEMENTS*/
+    .achievement{
+        padding: 120px 0 ;
+        background-attachment: fixed;
+    }
+
+
+
+    /*PRODUCTS*/
+
+    .products .product-item > a{
+        overflow: hidden;
+    }
+
+    .products .product-item img{
+        transition: 0.4s linear;
+    }
+
+    .products .product-item:hover img{
+        transform: scale(1.1);
+    }
+
+    .products .product-item .product-info{
+
+        transform: perspective(1000px) rotateX(90deg);
+        transition:0.4s linear;
+    }
+    .products .product-item:hover .product-info{
+        transform: rotateX(0);
+    }
+
+}
+
+/*XL breakpoint*/
+@media(min-width:1200px){
+    .navbar-light .navbar-nav .nav-item{
+        margin-left: 50px;
+    }
+
+
+    /* ACHIEVEMENTS*/
+    .achievement{
+        padding: 169px 0 142px;
+    }
+
+
+}
+
+@media(min-width:1250px){
+    .container{
+        max-width: 1200px;
+    }
+}
